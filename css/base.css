@@ -74,3 +74,7 @@ p {
     padding: 0.8rem 1.5rem;
     font-size: 1.1rem;
 }
+
+#check-option, .nav-btn {
+    display: none;
+}
