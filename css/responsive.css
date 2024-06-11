@@ -18,28 +18,42 @@ Following the Micorsoft documentation.
     }
 */
 
-@media((min-width:641px) and (max-width:1007px)) {
+@media(max-width:1007px) {
     html {
         font-size: 12px;
-        background-color: red;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-desciption-container {
+        width: 100%;
+        margin-top: 4rem;
     }
 }
+
 @media(max-width:640px) {
     html {
         font-size: 10px;
-        background-color: blue;
     }
+    
+
+    label { 
+        cursor: pointer;
+    }
+
     header {
         flex-direction: column;
         height: max-content;
         padding: 2%;
     }
+
     .nav-btn {
-        display: inline;
+        display: inline-flex;
     }
     .nav-option {
         flex-direction: column;
-        background-color: red;
     }
 
     .nav-btn span {
