@@ -1,18 +1,18 @@
 /*variable*/
 :root {
     --primary-color: #AF9FFF;
-    --primary-color: #D5CCFF;
-    --primary-color: #7F66FF;
+    --primary-color-100: #D5CCFF;
+    --primary-color-300: #7F66FF;
 
-    --secondary-color: #025834;
+    --secondary-color: #0e8453;
     --secondary-color-600: #04C876;
-    --secondary-color-900: #01321E;
+    --secondary-color-900: #12e666;
 
     --neutral-color: #E0E0E0;
     
-    --background-color: #1B1B1B;
+    --background-color: #8e8787;
 
-    --surface-color: #252525;
+    --surface-color: #069cce;
 
     --lobster-font: "Lobster Two", sans-serif;
     --sans-font: "DM Sans", sans-serif;
@@ -34,7 +34,7 @@
 all the elements*/
 
 html {
-    background-color: var(---background-color);
+    background-color: var(--background-color);
     font-size: 14px;
 }
 
